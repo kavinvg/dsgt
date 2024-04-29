@@ -338,3 +338,69 @@ def main():
 if __name__ == '__main__':
     main()
 
+# output:
+# Player O moving (Human) ...
+# Depth: 1029
+# Recommendation: 5
+# Make a move (tile number): 5
+# |  1  |  2  |  3  |
+# |  4  |  O  |  6  |
+# |  7  |  8  |  9  |
+
+# Player X moving (AI) ...
+# Depth: 1012
+# |  X  |  2  |  3  |
+# |  4  |  O  |  6  |
+# |  7  |  8  |  9  |
+
+# Player O moving (Human) ...
+# Depth: 702
+# Recommendation: 2
+# Make a move (tile number): 2
+# |  X  |  O  |  3  |
+# |  4  |  O  |  6  |
+# |  7  |  8  |  9  |
+
+# Player X moving (AI) ...
+# Depth: 268
+# |  X  |  O  |  3  |
+# |  4  |  O  |  6  |
+# |  7  |  X  |  9  |
+
+# Player O moving (Human) ...
+# Depth: 104
+# Recommendation: 4
+# Make a move (tile number): 4
+# |  X  |  O  |  3  |
+# |  O  |  O  |  6  |
+# |  7  |  X  |  9  |
+
+# Player X moving (AI) ...
+# Depth: 32
+# |  X  |  O  |  3  |
+# |  O  |  O  |  X  |
+# |  7  |  X  |  9  |
+
+# Player O moving (Human) ...
+# Depth: 11
+# Recommendation: 3
+# Make a move (tile number): 3
+# |  X  |  O  |  O  |
+# |  O  |  O  |  X  |
+# |  7  |  X  |  9  |
+
+# Player X moving (AI) ...
+# Depth: 4
+# |  X  |  O  |  O  |
+# |  O  |  O  |  X  |
+# |  X  |  X  |  9  |
+
+# Player O moving (Human) ...
+# Depth: 1
+# Recommendation: 9
+# Make a move (tile number): 9
+# |  X  |  O  |  O  |
+# |  O  |  O  |  X  |
+# |  X  |  X  |  O  |
+
+# Winner is player: It is a tie!
